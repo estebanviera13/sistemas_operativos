@@ -4,6 +4,8 @@
 # Carpeta de trabajo : /root/SIBA.
 # Copiar este script SIBAinst a /root/SIBA/, y chmod u+x SIBAinst, y ejecutar.
 # Decido interfaz
+#agrego comentario para poder probar
+
 
 read -p "Desea utilizar interfaz clasica o avanzada ? (c/a) : " icoa
 
