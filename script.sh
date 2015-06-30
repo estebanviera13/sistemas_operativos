@@ -1,19 +1,8 @@
 #!/bin/bash
-
-
-
 # Este script es ejecutado por root y crea el usuario SIBAadmin
-
 # Le da los permsos de sudoer para useradd, userdel, usermod
-
-
-
 # Carpeta de trabajo : /root/SIBA.
-
 # Copiar este script SIBAinst a /root/SIBA/, y chmod u+x SIBAinst, y ejecutar.
-
-
-
 # Decido interfaz
 
 read -p "Desea utilizar interfaz clasica o avanzada ? (c/a) : " icoa
@@ -25,15 +14,13 @@ if test -z $icoa; then # si no opto, es clasica
 fi
 
 
-
 #echo $icoa
+
 
 #exit
 
 
-
 # Bienvenida
-
 msg='Bienvenido a la instalacion de SIAD !'
 
 if test $icoa == "c"; then
